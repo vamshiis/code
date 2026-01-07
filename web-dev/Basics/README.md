@@ -1,0 +1,1 @@
+"This folder contains my practice files for HTML, CSS, Flexbox, and Grid."

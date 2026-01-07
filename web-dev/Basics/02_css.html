@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+             font-family:Arial, Helvetica, sans-serif;
+            background-color: #010b05;
+            margin: 0;
+            padding:0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: #052a3d;
+            /* background-image: linear-gradient(#ded1c6,#a77693,#174871); */
+            border-radius: 5px;
+            padding: 30px;
+            width: 300px;
+        }
+        h2{
+            color: #b4c3d2;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            margin-bottom: 15px;
+            padding:10px;
+            border-radius: 5px;
+            border: none;
+        }
+        button{
+            background-color: #264264;
+            color: aliceblue;
+            border-radius: 8px;
+            padding:10px;
+        }
+        button:hover{
+            background-color: #0e32d4;
+        }
+        .fear{
+            width: 5px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .fear input{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Login</h2>
+    <form action="">
+        <input type="email" name="" id="" placeholder="Email">
+        <div class="fear">
+         <input type="text" placeholder="first name" >
+         <input type="text" placeholder="lastname" >
+         </div>
+        <input type="password" name="" id="" placeholder="Password">
+       <button type="button">Login</button>
+    </form>
+  </div>
+</body>
+</html>
